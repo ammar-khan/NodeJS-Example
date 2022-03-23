@@ -1,17 +1,17 @@
-#Coffee Orders
+# Coffee Orders
 
 This example is it to build an app to fetch and parse some data associated with a coffee shop.
 
 The app keeps track of coffee ordered, what the balance is for each user, what users have paid for already, and what is still owed.
 
-## Data
+## Data
 
 We've got the following data
 - `data/prices.json` - provided by our barista. Has details of what beverages are available, and what their prices are.
 - `data/orders.json` - list of beverages ordered by users of the app.
 - `data/payments.json` - list of payments made by users paying for items they have purchased.
 
-##Output
+## Output
 
   ```
   [
@@ -22,7 +22,7 @@ We've got the following data
   ]
   ```
 
-##APIs 
+## APIs 
 Orders API
 ```
 GET http://localhost:5000/api/orders
@@ -38,7 +38,7 @@ Prices API
 GET http://localhost:5000/api/prices
 ```
 
-##Application
+## Application
 ```
 http://localhost:8080/
 ```
